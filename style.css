@@ -1,0 +1,140 @@
+body {
+    width: 97%;
+}
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    background-image: linear-gradient(to right, red,green, yellow);
+}
+#h1:hover {
+    background-color: aqua;
+}
+.navdiv {
+    box-sizing: border-box;
+    width: 60%;
+    border: 3px solid red;
+    border-radius: 8px;
+    background-color: cadetblue;
+    margin: auto;
+    padding-left:20%;
+}
+.list li {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 40px;
+}
+.themecontentdiv {
+    margin-top: 2%;
+    width: 100%;
+    height: 200px;
+    border-radius: 10Px;
+    border: 3px solid brown;
+    background-color: aquamarine;
+}
+.themecontentclass {
+    width: 30%;
+    border: 2px solid green;
+    border-radius: 8px;
+    background-color: aqua;
+    font-weight: bold;
+}
+#themecontentbox1 {
+    float: right;
+}
+#themecontentbox2 {
+    float: left;
+}
+#themecontentbox3 {
+    position:relative;
+    left: 35%;
+    bottom: 50%;
+    clear: left;
+}
+h3 {
+    height: 40px;
+    text-align: center;
+    text-decoration: underline rgb(255, 77, 0);
+    background-image: linear-gradient(to right, red, yellow, red);
+}
+.maincontentdiv {
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border: 3px solidgreen;
+    background-image: radial-gradient(blue, rgb(66, 66, 235) , green 80%);
+}
+.maincontent {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 18px;
+    font-weight: bold;
+    width: 15%;
+    height: 130px;
+    border: 3px solid red;
+    background-color: yellow;
+}
+.footerdiv {
+    margin-top: 25px;
+    width: 100%;
+    border: 2px solid black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 10px;
+    grid-auto-rows:(auto, auto);
+}
+#footerbox1 {
+    background-color: red;
+    text-align: center;
+    font-size: 20px; 
+    font-weight: bold;
+    height: 30px;
+    grid-column:1/-1;
+    grid-row:1;
+}
+#footerbox2 {
+    background-color: rgb(18, 202, 140);
+    font-weight: bold;
+    font-size: 28px;
+    grid-column: 1/2;
+    grid-row: 2;
+}
+#footerbox3 {
+    background-color: blue;
+    font-weight: bold;
+    font-size: 28px;
+    grid-column: 2/3;
+    grid-row: 2;
+}
+#footerbox4 {
+    background-color: purple;
+    font-weight: bold;
+    font-size: 28px;
+    grid-column: 3/4;
+    grid-row: 2;
+}
+#footerbox5 {
+    background-color: orange;
+    grid-row: 3;
+    font-weight: bold;
+    font-size: 25px;
+    grid-column: 1/4;
+}
+#footerbox6 {
+    background-color: black;
+    text-decoration: underline;
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+#footerbox7 {
+    background-color: chartreuse;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    grid-column: 1/5;
+    grid-row: 4;
+}
